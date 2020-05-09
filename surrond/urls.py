@@ -27,9 +27,6 @@ urlpatterns = [
     path('aiconcept',views.aiconcept),
     path('theory',views.theory),
     path('aipipleine',views.aipipeline),
-    path('line',views.sLine),
-    path('circle',views.circle),
-    path('square',views.square),
     path('admin/', admin.site.urls),
 ]+ static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)
 
